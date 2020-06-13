@@ -1,0 +1,44 @@
+.navbar-brand {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    font-size: 25px;
+}
+
+.logo {
+    width: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.nav-link {
+    font-family: 'Montserrat',
+        sans-serif;
+    color: black;
+}
+
+.btn {
+    background-color: black !important;
+    border-radius: 50px !important;
+    font-size: 14px;
+    margin: auto 0 auto 0;
+}
+
+/* desktop version */
+@media (min-width: 992px) {
+    .navbar {
+        height: 80px;
+    }
+
+    .nav-link {
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 2px solid black;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -7px;
+        width: 70%;
+    }
+}

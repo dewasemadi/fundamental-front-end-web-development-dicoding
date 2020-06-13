@@ -1,0 +1,50 @@
+.jumbotron {
+    margin-top: 20px;
+    height: 470px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    background-image: url(https://wallpapercave.com/wp/wp1887437.jpg);
+
+}
+
+.jumbotron>h3 {
+    color: white;
+    text-align: center;
+    margin-top: -10px;
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: 3px 3px 2px black;
+}
+
+strong {
+    border-bottom: 1px solid white;
+}
+
+.jumbotron>p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 2px black;
+}
+
+/* mobile version */
+@media (max-width: 550px) {
+    .jumbotron {
+        height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 30px;
+    }
+
+    .jumbotron>h3 {
+        font-size: 30px;
+        text-align: right;
+    }
+
+    .jumbotron>p {
+        font-size: 14px;
+        text-align: right;
+    }
+
+}

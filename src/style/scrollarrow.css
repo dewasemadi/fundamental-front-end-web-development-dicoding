@@ -1,0 +1,10 @@
+#scrollarrow {
+    text-indent: -9999px;
+    width: 42px;
+    height: 42px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    background: url(https://image.flaticon.com/icons/svg/271/271239.svg) no-repeat;
+    background-size: 42px 42px;
+}
